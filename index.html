@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-animation"></div>
+<div class="main">
+
+<div class="left-panel">
+<h1>TIC TAC TOE</h1>
+<p>Play. Win. Repeat.</p>
+<div id="modeSelect">
+<button id="modeAI">Play with Robot 🤖</button>
+<button id="mode2P">2 Players 👥</button>
+</div>
+
+<div id="playerInputs" class="hide">
+<input type="text" id="playerX" placeholder="Player X Name">
+<input type="text" id="playerO" placeholder="Player O Name">
+<button id="startGame">Start Game</button>
+</div>
+</div>
+
+<div class="container">
+    <div class="center-panel">
+<p class="turn">Turn: <span id="turnText">Player X</span></p>
+<div class="game">
+<button class="box"></button>
+<button class="box"></button>
+<button class="box"></button>
+<button class="box"></button>
+<button class="box"></button>
+<button class="box"></button>
+<button class="box"></button>
+<button class="box"></button>
+<button class="box"></button>
+</div>
+</div>
+</div>
+
+<div class="right-panel">
+<h1>Score</h1>
+<p id="scoreX">X : 0</p>
+<p id="scoreO">O : 0</p>
+<button id="reset" type="button">Reset</button>
+</div>
+</div>
+<div class="winner-card hide" id="winnerCard">
+<h2 id="winnerText"></h2>
+<button id="newGame">Play Again</button>
+</div>
+<div id="blast" class="blast"></div>
+<script src="app.js"></script>
+</body>
+</html>
