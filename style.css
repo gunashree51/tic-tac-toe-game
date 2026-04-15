@@ -406,10 +406,6 @@ max-width: 300px;
 .container {
 width: 100%;
 }
-.game {
-width: 90vmin;
-height: 90vmin;
-}
 #startGame, #reset, #modeSelect button {
 width: 100%;
 }
