@@ -14,7 +14,7 @@ A modern and interactive Tic Tac Toe game built using frontend development techn
 Frontend Development (UI/UX + Logic)
 
 📸 Preview
-(Add your screenshot here)
+![Game Screenshot](game_ss.png)
 
 🎮 How to Play
 1. Select game mode (AI or Two Players)
