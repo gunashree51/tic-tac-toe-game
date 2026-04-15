@@ -389,3 +389,34 @@ animation: fadeIn 0.4s ease;
 from { opacity: 0; transform: translate(-50%, -40%); }
 to { opacity: 1; transform: translate(-50%, -50%); }
 }
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+.main {
+flex-direction: column;  
+justify-content: center;
+align-items: center;
+gap: 20px;
+padding: 20px;
+}
+.left-panel,
+.right-panel {
+width: 100%;
+max-width: 300px;
+}
+.container {
+width: 100%;
+}
+.game {
+width: 90vmin;
+height: 90vmin;
+}
+#startGame, #reset, #modeSelect button {
+width: 100%;
+}
+.left-panel h1 {
+font-size: 24px;
+}
+body {
+overflow-x: hidden;
+}
+}
