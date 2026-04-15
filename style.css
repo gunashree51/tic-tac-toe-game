@@ -7,11 +7,13 @@ font-family: 'Poppins', sans-serif;
 
 /* Animated Background */
 body {
-height: 100vh;
-overflow: hidden;
 background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
 background-size: 400% 400%;
 animation: gradientBG 10s ease infinite;
+height: auto;         
+min-height: 100vh;     
+overflow-x: hidden;    
+overflow-y: auto; 
 }
 
 @keyframes gradientBG {
@@ -424,6 +426,10 @@ width: 100%;
 height: 100%;
 }
 body {
-overflow-x: hidden;
+overflow-y: auto;
+height: auto;
+}
+.main {
+height: auto;  
 }
 }
